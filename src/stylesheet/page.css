@@ -1,0 +1,11 @@
+body {
+    background-color: var(--discord-dark);
+    font-family: "Ginto Normal", Whitney, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.centered {
+    transform: translate(-50%, -50%);
+    position: absolute;
+    left: 50%;
+    top: 50%;
+}

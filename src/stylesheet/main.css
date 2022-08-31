@@ -1,0 +1,10 @@
+@import url(auth.css);
+@import url(page.css);
+
+:root {
+    --blurple: #5865f2;
+    --discord-dark: #23272a;
+    --code-bg: #18191c;
+    --text-primary: #fff;
+    --text-secondary: #6d6f72;
+}

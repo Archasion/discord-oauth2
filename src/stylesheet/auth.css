@@ -1,0 +1,50 @@
+#discordAuthContainer {
+    display: flex;
+    flex-direction: column;
+}
+
+#discordAuthButton {
+    background-color: transparent;
+    border-radius: 8px;
+    font-weight: 700;
+    transition: 0.2s;
+    font-size: 1.2em;
+    padding: 15px 22px;
+    cursor: pointer;
+    border: 2px solid var(--blurple);
+    color: var(--blurple);
+}
+
+#discordAuthButton:hover {
+    background-color: var(--blurple);
+    color: var(--text-primary);
+}
+
+#discordAuthResponse {
+    background-color: var(--code-bg);
+    color: var(--text-secondary);
+    border-radius: 8px;
+    font-size: 0.9em;
+    padding: 18px;
+    overflow: hidden;
+    height: fit-content;
+    resize: none;
+    border: none;
+    width: 50vw;
+}
+
+label[for="discordAuthResponse"] {
+    color: var(--text-primary);
+    margin-bottom: 10px;
+    font-weight: 700;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+
+#discordAuthResponse::placeholder {
+    color: var(--text-secondary);
+}
+
+#discordAuthResponse:active, #discordAuthResponse:focus {
+    outline: none;
+}
