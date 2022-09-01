@@ -1,3 +1,7 @@
+**This project's authorization redirection URI is set to `localhost:8080`**
+
+---
+
 Before request:
 
 <img width="780" alt="image" src="https://user-images.githubusercontent.com/59822256/187792344-d7f7a5df-7b4c-44d3-b3bb-c580ac98fb85.png">
