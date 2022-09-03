@@ -1,4 +1,4 @@
-**This project's authorization redirection URI is set to `localhost:8080`**
+**This project's authorization redirection URI is set to `archasion.github.io/discord-oauth2/`**
 
 ---
 
